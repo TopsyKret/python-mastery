@@ -24,4 +24,6 @@ def portfolio_cost(file_path):
            print("Reason", e)
     return float(total_cost)
 
-print(portfolio_cost('/home/jagriti/Documents/vsc/pythonmastery/python-mastery/Data/portfolio3.dat'))
+# modified program so that this step only occurs if the program is run as the main program
+if __name__ == '__main__':
+  print(portfolio_cost('/home/jagriti/Documents/vsc/pythonmastery/python-mastery/Data/portfolio.dat'))
